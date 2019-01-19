@@ -1,0 +1,99 @@
+/* "shopping list" */
+.coolTitle {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 50px;
+  transform: skewY(-4deg);
+  color: tomato;
+  line-height: 20px;
+}
+
+/* holds shopping list title and "get it done today" */
+#pageHeader {
+  display: grid;
+  grid-template-rows: 2;
+}
+
+/* "Get it done today" */
+#first {
+  font-family: 'Kalam', cursive;
+  font-size: 22px;
+  text-align: center;
+  line-height: 10px;
+}
+
+/* Wraps the p, input, button, and list */
+.container {
+  display: grid;
+  margin: 0 auto;
+  width: 550px;
+}
+
+/* intro paragraph */
+p {
+  font-family: 'Arial';
+  line-height: 22px;
+}
+
+/* input and submit button*/
+ .grid {
+  display: inline;
+  flex-wrap: nowrap;
+  height: 30px;
+  vertical-align: middle;
+ }
+
+/* input field */
+#userinput {
+  border-style: line;
+  border-color: #d1e5e1;
+  font-size: 18px;
+
+}
+
+/* div tag that holds input and submit button */
+.addtolist {
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+/* submit button */
+ #enter {
+  border-radius: 4px;
+  color: white;
+  background-color: tomato;
+  vertical-align: middle;
+  letter-spacing: 1px;
+  font-size: 16px;
+  width: 130px;
+  height: 37px;
+ }
+
+
+ul {
+  font-family: 'Oswald', sans-serif;
+  font-size: 28px;
+  list-style-type: circle;
+}
+
+/* class to cross off done items */
+.done {
+  text-decoration: line-through;
+}
+
+/* delete buttons */
+.delButtons {
+  font-size: 14px;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-left: 15px;
+  border-radius: 4px;
+  color: white;
+  background-color: tomato;
+  vertical-align: middle;
+  letter-spacing: 1px;
+}
+
+
+

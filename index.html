@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript + DOM</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:300|Kalam|Oswald" rel="stylesheet">
+</head>
+<body>
+	<div id="pageHeader"><h1 class="coolTitle">Shopping List</h1>
+	<p id="first">Get it done today</p></div>
+<div class="container"><!-- parent grid -->
+	<p>We've created a starter shopping list for you. To use this convenient shopping list, click the items you've already completed to cross them off your list. You can delete the items once they've been crossed off. Enter your own additional items to the list.</p><!-- descendent of grid -->
+	
+	<div class="addtolist"><input class="grid input" id="userinput" type="text" placeholder="enter items">
+	<button class="grid input" id="enter">Add to list</button></div><!-- descendent of grid -->
+	
+	<ul><!-- descendent of grid -->
+		<li class="bold red" random="23">Notebook</li>
+		<li>Jello</li>
+		<li>Spinach</li>
+		<li>Rice</li>
+		<li>Birthday Cake</li>
+		<li>Candles</li>
+	</ul>
+</div>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
